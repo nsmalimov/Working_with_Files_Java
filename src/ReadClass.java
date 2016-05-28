@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class work {
+public class ReadClass {
     public static String read(String fileName) {
         StringBuilder sb = new StringBuilder();
         try {
