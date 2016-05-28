@@ -1,10 +1,10 @@
 /**
  * Created with IntelliJ IDEA.
  */
-public class file_main {
+public class MainClass {
     private static String fileName = "a1.txt";
     public static void main(String[] args) {
-        String res = work.read(fileName);
+        String res = ReadClass.read(fileName);
         int count = 0;
         if (res.length() != 0)
         {
