@@ -2,7 +2,7 @@
  * Created with IntelliJ IDEA.
  */
 public class MainClass {
-    private static String fileName = "a1.txt";
+    private static String fileName = "file.txt";
     public static void main(String[] args) {
         String res = ReadClass.read(fileName);
         int count = 0;
